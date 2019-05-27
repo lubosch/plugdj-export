@@ -370,7 +370,7 @@ function showNotExported (leftovers) {
 
 function exportPlaylists () {
   var playlists = getPlaylists().map(function (p) { return p.toJSON() })
-  playlists = playlists.slice(10)
+  playlists = playlists.slice(20)
   
   API.chatLog('This script supports exporting to both YouTube and SoundCloud.')
   API.chatLog('You can select where to export things to below:')
