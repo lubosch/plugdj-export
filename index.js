@@ -447,8 +447,7 @@ function exportPlaylists () {
     })
 
     promise.then(function () {
-      API.chatLog('Finished exporting 
-!')
+      API.chatLog('Finished exporting!')
     })
 
     promise.fail(function (err) {
